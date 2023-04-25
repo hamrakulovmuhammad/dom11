@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cart-item {
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.cart-item .left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item .left img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cart-item button {
+    padding: 5px 10px;
+}
+  
+
+.counter {
+    display: flex;
+    gap: 20px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
